@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+Disallow: /__preview/
+Sitemap: https://vorota-vl.ru/sitemap.xml

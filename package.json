@@ -1,0 +1,9 @@
+{
+  "name": "vorota-vl-local",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Локальный сайт направления «Ворота» компании «Концепция Строительства».",
+  "scripts": {
+    "dev": "node server.mjs"
+  }
+}
