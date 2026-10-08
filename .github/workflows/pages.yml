@@ -28,7 +28,7 @@ jobs:
       - name: Stage public site files
         run: |
           mkdir -p _site
-          cp index.html site.css site.js robots.txt sitemap.xml CNAME .nojekyll _site/
+          cp index.html site.css site.js robots.txt sitemap.xml CNAME .nojekyll favicon.ico _site/
           cp -R assets avtomatika consent cookies kontakty otkatnye privacy raboty raspashnye zabory _site/
       - name: Upload site files
         uses: actions/upload-pages-artifact@v3
