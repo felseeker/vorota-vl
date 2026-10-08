@@ -224,11 +224,6 @@ main { display: block; }
 .step-card p { margin: 10px 0 0; color: var(--muted); font-size: 12px; line-height: 1.55; }
 .material-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 13px; }
 .material-card { min-height: 205px; padding: 22px; }
-.material-card .material-mark { display: block; width: 100%; height: 56px; margin-bottom: 19px; border-radius: 11px; background: #ecebe7; }
-.material-mark--profile { background: repeating-linear-gradient(90deg,#323a3d 0 7px,#465054 7px 11px); }
-.material-mark--picket { background: repeating-linear-gradient(90deg,#262b2d 0 4px,transparent 4px 19px), #deded8; }
-.material-mark--wood { background: repeating-linear-gradient(90deg,#835638 0 11px,#9a704e 11px 14px,#63482f 14px 19px); }
-.material-mark--weld { background: repeating-linear-gradient(0deg,transparent 0 12px,#343b3e 12px 14px), repeating-linear-gradient(90deg,transparent 0 23px,#343b3e 23px 25px),#e7e7e1; }
 .material-card h3 { font-size: 18px; }
 .material-card p { margin: 8px 0 0; color: var(--muted); font-size: 12px; }
 .work-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 18px; }
